@@ -8,7 +8,7 @@ export const Card = () => {
     <section className='card'>
       <img src={avatar} className='card__avatar' alt='avatar' />
       <button className='card__connect-button'>Connect Wallet</button>
-      <p className="card__token">Token count</p>
+      <p className='card__token'>Token count</p>
       <TokenCounter />
     </section>
   );

@@ -2,6 +2,7 @@ import logo from './assets/images/logo_nobg-min.PNG';
 import './App.scss';
 import { Navigation } from './components/Navigation/Navigation';
 import { Main } from './components/Main/Main';
+import { Footer } from './components/Footer/Footer';
 
 export const App = () => {
   return (
@@ -14,6 +15,7 @@ export const App = () => {
         <span className='intro__title'>Here you can mint CryptoPlush NFT</span>
       </h1>
       <Main />
+      <Footer />
     </div>
   );
 };

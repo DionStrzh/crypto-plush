@@ -1,0 +1,63 @@
+@import '../../assets/fonts/Poppins-Regular.ttf';
+@import '../../assets/styles/helpers.scss';
+.footer {
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 342px;
+    margin: 0 auto;
+    margin-bottom: 42px;
+    a {
+      display: block;
+    }
+    &-item:not(:last-child) {
+      margin-right: 36px;
+    }
+    &-icon {
+      @include square(48px);
+      @include maxWidthScreen(900px) {
+        @include square(32px);
+      }
+    }
+  }
+  &__copy {
+    position: relative;
+    text-align: center;
+    padding: 32px 0 64px 0;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background: #c4c4c4;
+    }
+    @media screen and (max-width: 900px) {
+      font-size: 24px;
+      line-height: 36px;
+    }
+  }
+  &__logo {
+    width: 244px;
+    height: 141px;
+    &-wrapper {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background: #c4c4c4;
+      }
+    }
+  }
+}

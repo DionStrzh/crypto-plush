@@ -7,6 +7,7 @@
 }
 
 body {
+  position: relative;
   font-family: $mainFont;
   color: #fff;
   background-color: $backgroundColor;
@@ -14,7 +15,9 @@ body {
 
 .container {
   max-width: 1312px;
+  padding: 0 16px;
   margin: 0 auto;
+
 }
 
 ul {
@@ -29,4 +32,5 @@ a {
 button {
   border: none;
   font-family: inherit;
+  background: none;
 }

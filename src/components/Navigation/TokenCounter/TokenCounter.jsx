@@ -21,7 +21,7 @@ export const TokenCounter = () => {
   };
 
   return (
-    <div className='counter'>
+    <div className='counter card__counter'>
       <div className='wrapper'>
         <button
           disabled={disabled}

@@ -1,4 +1,5 @@
 @import '../../assets/styles/variables.scss';
+@import '../../assets/styles/helpers.scss';
 
 .main {
   display: flex;
@@ -8,16 +9,23 @@
     margin-bottom: 36px;
   }
 }
+
 .prices {
   &__info {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 12px;
+    @include maxWidthScreen(900px) {
+      flex-direction: column;
+    }
   }
   &__title {
     color: $turquoiseColor;
     margin-right: 32px;
+    @include maxWidthScreen(900px) {
+      margin-bottom: 12px;
+    }
   }
   &__crypto {
     color: $turquoiseColor;
@@ -25,8 +33,22 @@
   &__list {
     display: flex;
     align-items: center;
-    &-item:not(:last-child) {
-      margin-right: 26px;
+    &-item {
+      &:not(:last-child) {
+        margin-right: 26px;
+        @include maxWidthScreen(900px) {
+          margin-right: 0;
+        }
+      }
+      @include maxWidthScreen(900px) {
+        margin-right: 0;
+        margin-bottom: 12px;
+      }
+    }
+
+    @include maxWidthScreen(900px) {
+      flex-direction: column;
+      align-items: flex-start;
     }
   }
   &__description {

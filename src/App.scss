@@ -1,8 +1,9 @@
 @import '../src/assets/styles/fonts.scss';
 @import '../src/assets/styles/variables.scss';
-
+@import '../src/assets/styles/helpers.scss';
 
 .page {
+  position: relative;
   &__header {
     margin-bottom: 48px;
   }
@@ -21,8 +22,15 @@
   padding-top: 40px;
   display: flex;
   align-items: center;
+  @include maxWidthScreen(900px) {
+    justify-content: space-between;
+  }
   &__logo {
     margin-right: 48px;
+    @include maxWidthScreen(900px) {
+      width: 82px;
+      height: auto;
+    }
   }
 }
 
@@ -36,5 +44,8 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    @include maxWidthScreen(900px) {
+      font-size: 32px;
+    }
   }
 }
