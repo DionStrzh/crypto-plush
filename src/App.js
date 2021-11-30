@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './assets/images/logo_nobg.PNG';
+import './App.scss';
+import { Navigation } from './components/Navigation/Navigation';
+import { Main } from './components/Main/Main';
 
-function App() {
+export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className='container page'>
+      <header className='header page__header'>
+        <img src={logo} className='logo header__logo' alt='Crypto Plush logo' />
+        <Navigation />
       </header>
+      <h1 className='intro page__intro'>
+        <span className='intro__title'>Here you can mint CryptoPlush NFT</span>
+      </h1>
+      <Main />
     </div>
   );
-}
-
-export default App;
+};

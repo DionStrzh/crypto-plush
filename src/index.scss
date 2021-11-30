@@ -1,0 +1,32 @@
+@import './assets/styles/variables.scss';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $mainFont;
+  color: #fff;
+  background-color: $backgroundColor;
+}
+
+.container {
+  max-width: 1312px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button {
+  border: none;
+  font-family: inherit;
+}

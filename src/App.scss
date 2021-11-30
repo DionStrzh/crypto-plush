@@ -1,0 +1,40 @@
+@import '../src/assets/styles/fonts.scss';
+@import '../src/assets/styles/variables.scss';
+
+
+.page {
+  &__header {
+    margin-bottom: 48px;
+  }
+  &__intro {
+    margin-bottom: 12px;
+  }
+}
+
+.logo {
+  width: 169px;
+  height: 74px;
+  object-fit: cover;
+}
+
+.header {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  &__logo {
+    margin-right: 48px;
+  }
+}
+
+.intro {
+  font-family: $mainFontBold;
+  text-align: center;
+  &__title {
+    font-size: 46px;
+    line-height: 119.5%;
+    background: linear-gradient(90deg, #00ffd0 0%, #fb2eff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
