@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/crypto-plush/static/css/main.335ca312.chunk.css",
-    "main.js": "/crypto-plush/static/js/main.b3b37e2c.chunk.js",
-    "main.js.map": "/crypto-plush/static/js/main.b3b37e2c.chunk.js.map",
+    "main.css": "/crypto-plush/static/css/main.1ad75dd7.chunk.css",
+    "main.js": "/crypto-plush/static/js/main.ab4ac07b.chunk.js",
+    "main.js.map": "/crypto-plush/static/js/main.ab4ac07b.chunk.js.map",
     "runtime-main.js": "/crypto-plush/static/js/runtime-main.a1f68a60.js",
     "runtime-main.js.map": "/crypto-plush/static/js/runtime-main.a1f68a60.js.map",
-    "static/js/2.9284b0bb.chunk.js": "/crypto-plush/static/js/2.9284b0bb.chunk.js",
-    "static/js/2.9284b0bb.chunk.js.map": "/crypto-plush/static/js/2.9284b0bb.chunk.js.map",
+    "static/js/2.4ef96d81.chunk.js": "/crypto-plush/static/js/2.4ef96d81.chunk.js",
+    "static/js/2.4ef96d81.chunk.js.map": "/crypto-plush/static/js/2.4ef96d81.chunk.js.map",
     "index.html": "/crypto-plush/index.html",
-    "static/css/main.335ca312.chunk.css.map": "/crypto-plush/static/css/main.335ca312.chunk.css.map",
-    "static/js/2.9284b0bb.chunk.js.LICENSE.txt": "/crypto-plush/static/js/2.9284b0bb.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/crypto-plush/static/media/Gotham_Rounded_Medium.10d88929.otf",
+    "static/css/main.1ad75dd7.chunk.css.map": "/crypto-plush/static/css/main.1ad75dd7.chunk.css.map",
+    "static/js/2.4ef96d81.chunk.js.LICENSE.txt": "/crypto-plush/static/js/2.4ef96d81.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/crypto-plush/static/media/Poppins-Regular.8081832f.ttf",
     "static/media/card-avatar-min.05aa214b.gif": "/crypto-plush/static/media/card-avatar-min.05aa214b.gif",
+    "static/media/icon__discord.836f0ff0.svg": "/crypto-plush/static/media/icon__discord.836f0ff0.svg",
+    "static/media/icon__reddit.eef68a9c.svg": "/crypto-plush/static/media/icon__reddit.eef68a9c.svg",
+    "static/media/icon__telegram.4e5b69d9.svg": "/crypto-plush/static/media/icon__telegram.4e5b69d9.svg",
+    "static/media/icon__twitter.9e4f5254.svg": "/crypto-plush/static/media/icon__twitter.9e4f5254.svg",
     "static/media/logo_nobg-min.f7b3f232.PNG": "/crypto-plush/static/media/logo_nobg-min.f7b3f232.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.a1f68a60.js",
-    "static/js/2.9284b0bb.chunk.js",
-    "static/css/main.335ca312.chunk.css",
-    "static/js/main.b3b37e2c.chunk.js"
+    "static/js/2.4ef96d81.chunk.js",
+    "static/css/main.1ad75dd7.chunk.css",
+    "static/js/main.ab4ac07b.chunk.js"
   ]
 }
