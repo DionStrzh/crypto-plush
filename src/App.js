@@ -1,4 +1,4 @@
-import logo from './assets/images/logo_nobg.PNG';
+import logo from './assets/images/logo_nobg-min.PNG';
 import './App.scss';
 import { Navigation } from './components/Navigation/Navigation';
 import { Main } from './components/Main/Main';
