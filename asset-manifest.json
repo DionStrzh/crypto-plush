@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/crypto-plush/static/css/main.335ca312.chunk.css",
-    "main.js": "/crypto-plush/static/js/main.7de93b67.chunk.js",
-    "main.js.map": "/crypto-plush/static/js/main.7de93b67.chunk.js.map",
+    "main.js": "/crypto-plush/static/js/main.b3b37e2c.chunk.js",
+    "main.js.map": "/crypto-plush/static/js/main.b3b37e2c.chunk.js.map",
     "runtime-main.js": "/crypto-plush/static/js/runtime-main.a1f68a60.js",
     "runtime-main.js.map": "/crypto-plush/static/js/runtime-main.a1f68a60.js.map",
     "static/js/2.9284b0bb.chunk.js": "/crypto-plush/static/js/2.9284b0bb.chunk.js",
@@ -11,13 +11,13 @@
     "static/css/main.335ca312.chunk.css.map": "/crypto-plush/static/css/main.335ca312.chunk.css.map",
     "static/js/2.9284b0bb.chunk.js.LICENSE.txt": "/crypto-plush/static/js/2.9284b0bb.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/crypto-plush/static/media/Gotham_Rounded_Medium.10d88929.otf",
-    "static/media/card-avatar.f19fb67c.gif": "/crypto-plush/static/media/card-avatar.f19fb67c.gif",
-    "static/media/logo_nobg.6a4a086e.PNG": "/crypto-plush/static/media/logo_nobg.6a4a086e.PNG"
+    "static/media/card-avatar-min.05aa214b.gif": "/crypto-plush/static/media/card-avatar-min.05aa214b.gif",
+    "static/media/logo_nobg-min.f7b3f232.PNG": "/crypto-plush/static/media/logo_nobg-min.f7b3f232.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.a1f68a60.js",
     "static/js/2.9284b0bb.chunk.js",
     "static/css/main.335ca312.chunk.css",
-    "static/js/main.7de93b67.chunk.js"
+    "static/js/main.b3b37e2c.chunk.js"
   ]
 }
