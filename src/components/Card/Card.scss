@@ -16,9 +16,20 @@
     width: 100%;
     height: 48px;
     color: #fff;
+    border: 1px solid transparent;
     border-radius: 8px;
     font-size: 16px;
     line-height: 200%;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    &:hover {
+      background-color: #cc10cf;
+    }
+    &:active {
+      background-color: transparent;
+      color: $mainPinkColor;
+      border-color: $mainPinkColor;
+    }
   }
   &__token {
     text-align: center;
